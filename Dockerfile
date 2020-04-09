@@ -1,7 +1,6 @@
 # Jackett and OpenVPN, JackettVPN
 
-FROM raspbian/stretch
-MAINTAINER gjeanmart
+FROM debian/stretch
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV XDG_DATA_HOME="/config" \
